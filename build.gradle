@@ -5,3 +5,8 @@ repositories {
 dependencies {
 	compile 'com.detectlanguage:detectlanguage:1.1.0'
 }
+import com.detectlanguage.DetectLanguage;
+DetectLanguage.apiKey = "65e1d8e422c23c401c80424aec8b0b8c";
+
+// Enable secure mode (SSL) if passing sensitive information
+// DetectLanguage.ssl = true;
